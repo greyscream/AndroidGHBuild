@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidGHBuild", "AndroidGHBuild\AndroidGHBuild\AndroidGHBuild.csproj", "{BB87CD2B-4A45-41FF-ADDD-3DDF60E228A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidGHBuild.Shared", "AndroidGHBuild\AndroidGHBuild.Shared\AndroidGHBuild.Shared.csproj", "{CF1E9F5E-4B40-4E02-94C4-53904632C361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidGHBuild.Web", "AndroidGHBuild\AndroidGHBuild.Web\AndroidGHBuild.Web.csproj", "{391F3059-1554-4B2C-9384-74B28A5B628D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidGHBuild.Web.Client", "AndroidGHBuild\AndroidGHBuild.Web.Client\AndroidGHBuild.Web.Client.csproj", "{A8106A1A-1E40-474E-9BE9-DBBE4FECE60A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB87CD2B-4A45-41FF-ADDD-3DDF60E228A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB87CD2B-4A45-41FF-ADDD-3DDF60E228A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB87CD2B-4A45-41FF-ADDD-3DDF60E228A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB87CD2B-4A45-41FF-ADDD-3DDF60E228A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1E9F5E-4B40-4E02-94C4-53904632C361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1E9F5E-4B40-4E02-94C4-53904632C361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1E9F5E-4B40-4E02-94C4-53904632C361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1E9F5E-4B40-4E02-94C4-53904632C361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391F3059-1554-4B2C-9384-74B28A5B628D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391F3059-1554-4B2C-9384-74B28A5B628D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391F3059-1554-4B2C-9384-74B28A5B628D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391F3059-1554-4B2C-9384-74B28A5B628D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8106A1A-1E40-474E-9BE9-DBBE4FECE60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8106A1A-1E40-474E-9BE9-DBBE4FECE60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8106A1A-1E40-474E-9BE9-DBBE4FECE60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8106A1A-1E40-474E-9BE9-DBBE4FECE60A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
