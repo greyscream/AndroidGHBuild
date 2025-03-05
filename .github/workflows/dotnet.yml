@@ -29,7 +29,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build AndroidGHBuild/AndroidGHBuild/AndroidGHBuild.csproj -c Release -f net9.0-android /p:AndroidSigningKeystore=myapp.keystore /p:AndroidSigningKeyAlias=ghactionskey /p:AndroidSigningKeyPass "${{ secrets.KEYSTORE_PASSWORD }}" /p:AndroidSigningStorePass="${{ secrets.KEYSTORE_PASSWORD }} --no-restore 
+      run: dotnet build AndroidGHBuild/AndroidGHBuild/AndroidGHBuild.csproj -c Release -f net9.0-android /p:AndroidSigningKeystore=myapp.keystore /p:AndroidSigningKeyAlias=ghactionskey /p:AndroidSigningKeyPass "${{ secrets.KEYSTORE_PASSWORD }}" /p:AndroidSigningStorePass="${{ secrets.KEYSTORE_PASSWORD }}" --no-restore 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.1
       with:
